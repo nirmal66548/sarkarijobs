@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&family=Poppins:wght@500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.tx{
+    font-size: 10px;
+}
+.txp{
+    font-size: 7px;
+}
+.txb{
+    font-size: 7px;
+    background-color: #51e056;
+    padding: 1px 3px;
+    cursor: pointer;
+}
+.txb:hover {
+    background-color: #32a536; /* Darker Green */
+}
+.txb:active {
+    background-color: #329635; /* Darker Green */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.mycard{
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: column;
+    padding: 10px;
+    gap: 0.5rem;
+}
